@@ -28,29 +28,26 @@ The project implements a simple RESTful API with a `/me` endpoint that returns m
 ##  Installation & Setup
 
 ### 1. Clone the repository
-    ```
-        git clone https://github.com/<your-username>/<your-repo>.git
-        cd <your-repo>
-        ```
+   ```
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+   ```
 
 ### 2. Install dependencies 
-        ```
-        bash npm install 
-
-        ```
+   ```
+    npm install 
+   ```
 
 ### 3. Configure environment variables
-        ```
-        bash EMAIL=your-email@example.com
-        NAME=Your Full Name
-
-        ```
+    ```
+    EMAIL=your-email@example.com
+    NAME=Your Full Name
+   ```
 
 ### 4. Run server locally
-        ```
-        bash npm start
-
-        ```
+    ```
+    npm start
+    ```
 
 ---
 
