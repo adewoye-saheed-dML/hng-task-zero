@@ -8,54 +8,54 @@ The project implements a simple RESTful API with a `/me` endpoint that returns m
 ## Features
 - GET `/me` endpoint
 - Returns JSON response with:
-  - `status`: always `"success"`
-    - `user`: email, full name, and backend stack
-      - `timestamp`: current UTC time in ISO 8601 format
-        - `fact`: random cat fact from Cat Facts API
-        - Handles errors gracefully if the Cat Facts API is down
-        - Uses environment variables for configuration
+- `status`: always `"success"`
+- `user`: email, full name, and backend stack
+- `timestamp`: current UTC time in ISO 8601 format
+- `fact`: random cat fact from Cat Facts API
+- Handles errors gracefully if the Cat Facts API is down
+- Uses environment variables for configuration
 
-        ---
+---
 
-        ## Tech Stack
-        - **Node.js**
-        - **Express.js**
-        - **Axios**
-        - **Dotenv** (for environment variables)
+## Tech Stack
+- **Node.js**
+- **Express.js**
+- **Axios**
+- **Dotenv** (for environment variables)
 
-        ---
+---
 
-        ##  Installation & Setup
+##  Installation & Setup
 
-        ### 1. Clone the repository
-        ```
+### 1. Clone the repository
+    ```
         git clone https://github.com/<your-username>/<your-repo>.git
         cd <your-repo>
         ```
 
-        ### 2. Install dependencies 
+### 2. Install dependencies 
         ```
         bash npm install 
 
         ```
 
-        ### 3. Configure environment variables
+### 3. Configure environment variables
         ```
         bash EMAIL=your-email@example.com
         NAME=Your Full Name
 
         ```
 
-        ### 4. Run server locally
+### 4. Run server locally
         ```
         bash npm start
 
         ```
 
-        ---
+---
 
-        ## Deployment
+## Deployment
 
-         This project is deployed on Railway. You can access it live here
-         https://hng-task-zero-production-5af5.up.railway.app/me
+  This project is deployed on Railway. You can access it live here
+   https://hng-task-zero-production-5af5.up.railway.app/me
          
