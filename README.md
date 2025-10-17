@@ -34,11 +34,11 @@ cd <your-repo>
 ```
 
 ### 2. Install dependencies 
-```bash npm install
+```bash npm install```
 
 ### 3. Configure environment variables
 ```bash EMAIL=your-email@example.com
-NAME=Your Full Name
+NAME=Your Full Name```
 
 ### 4. Run server locally
 ```bash npm start```
