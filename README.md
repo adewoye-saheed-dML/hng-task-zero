@@ -57,4 +57,5 @@ The project implements a simple RESTful API with a `/me` endpoint that returns m
         ## Deployment
 
          This project is deployed on Railway. You can access it live here
-         https://your-app-name.up.railway.app/me
+         https://hng-task-zero-production-5af5.up.railway.app/me
+         
