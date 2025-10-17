@@ -39,15 +39,15 @@ The project implements a simple RESTful API with a `/me` endpoint that returns m
    ```
 
 ### 3. Configure environment variables
-    ```
+   ```
     EMAIL=your-email@example.com
     NAME=Your Full Name
-   ```
+  ```
 
 ### 4. Run server locally
-    ```
+   ```
     npm start
-    ```
+   ```
 
 ---
 
