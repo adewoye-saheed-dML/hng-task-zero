@@ -40,7 +40,9 @@ cd <your-repo>
 NAME=Your Full Name
 
 ### 4. Run server locally
-```bash npm start
+```bash npm start```
+
+---
 
 ## Deployment 
 This project is deployed on Railway. You can access it live here
